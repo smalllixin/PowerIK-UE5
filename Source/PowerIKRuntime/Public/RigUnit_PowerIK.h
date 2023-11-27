@@ -72,7 +72,7 @@ struct FRigUnit_PowerIK : public FRigUnitMutable
 	UPROPERTY(transient)
 	FPowerIKCore Core;
 
-	UPROPERTY()
+	UPROPERTY(transient)
 	bool bInited = false;
 };
 
